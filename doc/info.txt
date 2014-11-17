@@ -1,0 +1,5 @@
+GraphLab shortest path
+##
+similar = ...
+similarity_graph = graphlab.SGraph.add_edges(..., dist_field='similar')
+sp_tree = graphlab.shortest_path.create(similarity_graph, source_id=...)
